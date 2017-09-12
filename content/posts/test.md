@@ -1,7 +1,7 @@
 ---
-title: "Test"
-date: 2017-09-11T21:49:55-04:00
-draft: true
+title: Test
+date: 2017-09-11 21:49:55 -0400
+
 ---
 # Test Post
 
