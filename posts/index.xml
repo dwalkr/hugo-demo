@@ -17,8 +17,7 @@
       <pubDate>Mon, 11 Sep 2017 21:49:55 -0400</pubDate>
       
       <guid>http://example.org/posts/test/</guid>
-      <description>Test Post Lorem ipsum and stuff
-maybe I will trigger deployment by adding this</description>
+      <description>Test Post Lorem ipsum and stuff</description>
     </item>
     
   </channel>
