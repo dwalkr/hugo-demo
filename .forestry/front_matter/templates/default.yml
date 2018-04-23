@@ -1,5 +1,8 @@
 ---
+pages:
+- posts/test2.md
 hide_body: false
+is_partial: false
 fields:
 - name: date
   label: Date
