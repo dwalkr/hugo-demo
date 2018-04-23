@@ -1,0 +1,13 @@
+---
+hide_body: false
+is_partial: true
+fields:
+- type: include
+  label: Meta Title
+  name: meta_title
+- type: textarea
+  name: meta_description
+  label: Meta Description
+- type: file
+  name: thumbnail
+  label: Thumbnail

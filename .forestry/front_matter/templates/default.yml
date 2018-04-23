@@ -1,5 +1,6 @@
 ---
 pages:
+- posts/test-post.md
 - posts/test3.md
 - posts/test2.md
 hide_body: false
@@ -10,3 +11,7 @@ fields:
   type: field_group
   hidden: false
   default: {}
+- type: include
+  template: seo
+  label: SEO
+  name: seo
