@@ -1,5 +1,5 @@
+MetaDataFormat = "yaml"
 baseURL = "http://example.org/"
 languageCode = "en-us"
 theme = "beautifulhugo"
 title = "My New Hugo Site"
-MetaDataFormat = "yaml"
