@@ -15,3 +15,10 @@ fields:
   template: seo
   label: SEO
   name: seo
+- type: textarea
+  name: testwysi
+  label: testwysi
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
