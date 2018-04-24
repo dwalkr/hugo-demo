@@ -23,3 +23,20 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+  description: markdown editor
+- type: textarea
+  name: testwysi2
+  label: testwysi2
+  description: html
+  config:
+    wysiwyg: true
+    schema:
+      format: html-blocks
+- type: textarea
+  name: testwysi3
+  label: testwysi3
+  description: inline html
+  config:
+    wysiwyg: true
+    schema:
+      format: html
