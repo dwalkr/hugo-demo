@@ -2,8 +2,20 @@
 label: default
 hide_body: false
 fields:
+- name: wqer
+  type: file
+  config:
+    maxSize: 250
+  label: wqer
 - name: date
+  type: datetime
   label: Date
-  type: field_group
-  hidden: false
-  default: {}
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: 
+  default: now
+pages:
+- content/posts/test.md
