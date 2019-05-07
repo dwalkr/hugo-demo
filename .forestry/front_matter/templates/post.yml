@@ -17,5 +17,10 @@ fields:
   config: {}
   template: 2-columns
   label: columns
+- name: nofields
+  type: include
+  config: {}
+  template: nofields
+  label: nofields
 pages:
 - content/posts/foodle.md
