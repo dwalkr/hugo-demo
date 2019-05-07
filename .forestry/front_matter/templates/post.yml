@@ -12,5 +12,10 @@ fields:
   config:
     required: false
   label: Author
+- name: hero
+  type: include
+  config: {}
+  template: 2-columns
+  label: columns
 pages:
 - content/posts/foodle.md
