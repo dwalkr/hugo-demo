@@ -20,7 +20,7 @@ sections:
   - blockyblock
   - default
 upload_dir: static/uploads
-public_path: "/uploads"
+public_path: uploads/images
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
