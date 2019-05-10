@@ -19,7 +19,7 @@ sections:
   templates:
   - blockyblock
   - default
-upload_dir: static/uploads
+upload_dir: ''
 public_path: ''
 front_matter_path: ''
 use_front_matter_path: 
