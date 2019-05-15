@@ -17,7 +17,7 @@ sections:
   create: all
   match: "*"
   templates:
-  - blockyblock
+  - test-templato
   - default
 upload_dir: ''
 public_path: ''
