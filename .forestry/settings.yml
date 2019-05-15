@@ -17,6 +17,7 @@ sections:
   create: all
   match: "*"
   templates:
+  - dfghfgyhut
   - test-templato
   - default
 upload_dir: static/uploads
