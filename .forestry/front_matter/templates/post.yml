@@ -23,4 +23,5 @@ fields:
   template: nofields
   label: nofields
 pages:
+- content/posts/asd.md
 - content/posts/foodle.md
