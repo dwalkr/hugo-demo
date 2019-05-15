@@ -1,0 +1,16 @@
+---
+label: dfghfgyhut
+hide_body: false
+fields:
+- type: text
+  name: author
+  label: author
+- type: text
+  name: column_1
+  label: column_1
+- type: text
+  name: column_2
+  label: column_2
+- type: text
+  name: title
+  label: title
