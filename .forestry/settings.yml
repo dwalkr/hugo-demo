@@ -20,7 +20,7 @@ sections:
   - dfghfgyhut
   - test-templato
   - default
-upload_dir: static/uploads
+upload_dir: hugodemodev
 public_path: ''
 front_matter_path: ''
 use_front_matter_path: 
