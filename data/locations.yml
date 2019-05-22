@@ -1,0 +1,13 @@
+locations:
+  - id: berlin-md
+    name: Berlin, MD
+    ecosystem: Hipster Swamp
+  - id: new-york-ny
+    name: New York, NY
+    ecosystem: Concrete Jungle
+  - id: charlottetown-pei
+    name: Charlottetown, PE
+    ecosystem: Silicon Island
+  - id: oslo-no
+    name: Oslo, Norway
+    ecosystem: Affjordable Housing
