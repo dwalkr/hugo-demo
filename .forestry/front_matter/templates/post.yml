@@ -21,6 +21,15 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 pages:
 - content/posts/foodle.md
 - content/posts/asd.md
