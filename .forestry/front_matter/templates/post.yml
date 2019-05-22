@@ -23,7 +23,7 @@ fields:
     display_utc: false
 - name: date2
   type: datetime
-  label: Date
+  label: Date 2
   description: ''
   config:
     required: false
