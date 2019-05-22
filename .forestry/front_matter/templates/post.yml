@@ -12,16 +12,15 @@ fields:
   config:
     required: false
   label: Author
-- name: hero
-  type: include
-  config: {}
-  template: 2-columns
-  label: columns
-- name: nofields
-  type: include
-  config: {}
-  template: nofields
-  label: nofields
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 pages:
 - content/posts/foodle.md
 - content/posts/asd.md
