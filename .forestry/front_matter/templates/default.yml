@@ -18,5 +18,4 @@ fields:
     display_utc: 
   default: now
 pages:
-- content/posts/test.md
 - content/asdfsadf.md
