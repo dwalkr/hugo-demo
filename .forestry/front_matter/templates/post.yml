@@ -30,11 +30,6 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
-- name: foo
-  type: text
-  config:
-    required: false
-  label: Foo
 pages:
 - content/posts/test.md
 - content/posts/foodle.md
