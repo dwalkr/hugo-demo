@@ -37,5 +37,5 @@ fields:
   label: foo
 pages:
 - content/posts/test.md
-- content/posts/foodle.md
 - content/posts/asd.md
+- content/posts/foodle.md
