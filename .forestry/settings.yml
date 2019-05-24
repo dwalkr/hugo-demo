@@ -25,11 +25,9 @@ sections:
 - type: document
   path: data/authors.yml
   label: Authors
-  match: "**/*"
 - type: document
   path: data/locations.yml
   label: Locations
-  match: "**/*"
 upload_dir: hugodemodev
 public_path: ''
 front_matter_path: ''
