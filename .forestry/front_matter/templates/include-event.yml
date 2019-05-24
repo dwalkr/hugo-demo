@@ -1,0 +1,68 @@
+---
+label: Include - Event
+hide_body: true
+display_field: title
+fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: sub_title
+    type: text
+    config:
+      required: false
+    label: Sub Title
+  - name: dates
+    type: field_group
+    config: {}
+    fields:
+      - name: start
+        type: datetime
+        label: Start
+        description: ""
+        config:
+          required: false
+          date_format:
+          time_format:
+          display_utc:
+      - name: end
+        type: datetime
+        label: End
+        description: ""
+        config:
+          required: false
+          date_format:
+          time_format:
+          display_utc:
+    label: Dates
+  - name: location
+    type: field_group
+    config: {}
+    label: Location
+    fields:
+      - name: location
+        type: include
+        config: {}
+        template: include-location
+        label: Location
+  - name: image
+    type: field_group
+    config: {}
+    fields:
+      - name: image
+        type: include
+        config: {}
+        template: figure
+        label: Image
+    label: Image
+    description: Featured image
+  - name: about
+    type: textarea
+    default: ""
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: About

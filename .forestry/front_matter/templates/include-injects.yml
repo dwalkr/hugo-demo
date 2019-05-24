@@ -1,0 +1,26 @@
+---
+label: Include - Injects
+hide_body: true
+fields:
+  - name: injects
+    type: field_group
+    config: {}
+    fields:
+      - name: head
+        type: blocks
+        label: "<head> Injects"
+        template_types:
+          - code-inject
+        config:
+          min:
+          max:
+      - name: post
+        type: blocks
+        label: Post <body> injects
+        template_types:
+          - code-inject
+        config:
+          min:
+          max:
+    label: Custom Injects
+    description: Only use if you know what you are doing!
