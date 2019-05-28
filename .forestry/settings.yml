@@ -29,7 +29,7 @@ sections:
   path: data/locations.yml
   label: Locations
 upload_dir: hugodemodev
-public_path: ''
+public_path: "/foo"
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
