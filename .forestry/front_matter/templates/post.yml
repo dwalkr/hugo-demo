@@ -21,7 +21,26 @@ fields:
   config:
     required: false
   label: foo
+- name: foodle
+  type: text
+  config:
+    required: false
+  label: Foodle
+- name: boodle
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - trundle
+    - grundle
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Boodle
 pages:
-- content/posts/foodle.md
-- content/posts/asd.md
 - content/posts/test.md
+- content/posts/asd.md
+- content/posts/foodle.md
