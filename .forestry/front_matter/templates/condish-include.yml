@@ -1,4 +1,26 @@
 ---
 label: condish-include
 hide_body: true
-fields: []
+fields:
+- name: trubbins
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - korf
+    - florf
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: trubbins
+- name: ploot
+  type: text
+  config:
+    required: false
+  label: ploot
+  showOnly:
+    field: trubbins
+    value: florf
