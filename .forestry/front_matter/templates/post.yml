@@ -16,6 +16,14 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+- name: foodle
+  type: text
+  config:
+    required: false
+  label: Foodle
+  showOnly:
+    field: boodle
+    value: grundle
 - name: boodle
   type: select
   default: []
@@ -35,14 +43,6 @@ fields:
   config:
     required: false
   label: foo
-- name: foodle
-  type: text
-  config:
-    required: false
-  label: Foodle
-  showOnly:
-    field: boodle
-    value: grundle
 pages:
 - content/posts/test.md
 - content/posts/asd.md
