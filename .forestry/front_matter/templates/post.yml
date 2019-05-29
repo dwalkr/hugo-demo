@@ -16,16 +16,6 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
-- name: foo
-  type: text
-  config:
-    required: false
-  label: foo
-- name: foodle
-  type: text
-  config:
-    required: false
-  label: Foodle
 - name: boodle
   type: select
   default: []
@@ -40,6 +30,16 @@ fields:
       file: 
       path: 
   label: Boodle
+- name: foo
+  type: text
+  config:
+    required: false
+  label: foo
+- name: foodle
+  type: text
+  config:
+    required: false
+  label: Foodle
 pages:
 - content/posts/test.md
 - content/posts/asd.md
