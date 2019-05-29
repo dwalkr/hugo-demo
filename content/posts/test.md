@@ -5,6 +5,8 @@ wqer: "/uploads/tentcheese.jpg"
 author: ''
 date2: 
 foo: ''
+foodle: sdfsdf
+boodle: grundle
 
 ---
 # Test Post
