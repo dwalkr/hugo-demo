@@ -105,6 +105,11 @@ fields:
     max: 
     labelField: 
   label: korkor
+- name: tyuabre
+  type: include
+  config: {}
+  template: condish-include
+  label: tyuabre
 pages:
 - content/posts/test.md
 - content/posts/asd.md
