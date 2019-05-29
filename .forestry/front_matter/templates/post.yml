@@ -43,6 +43,38 @@ fields:
   config:
     required: false
   label: foo
+- name: cranble
+  type: field_group
+  config: {}
+  fields:
+  - name: grundy
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - framble
+      - tramble
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: grundy
+  - name: shrunterfrumb
+    type: number
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+    label: shrunterfrumb
+    showOnly:
+      field: grundy
+      value: tramble
+  label: cranble
 pages:
 - content/posts/test.md
 - content/posts/asd.md
