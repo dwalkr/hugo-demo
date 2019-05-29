@@ -75,6 +75,36 @@ fields:
       field: grundy
       value: tramble
   label: cranble
+- name: korkor
+  type: field_group_list
+  fields:
+  - name: chooble
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - skringle
+      - frangle
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: chooble
+  - name: skoorplat
+    type: text
+    config:
+      required: false
+    label: skoorplat
+    showOnly:
+      field: chooble
+      value: frangle
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: korkor
 pages:
 - content/posts/test.md
 - content/posts/asd.md
