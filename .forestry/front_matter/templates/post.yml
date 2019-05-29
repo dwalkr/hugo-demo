@@ -110,6 +110,9 @@ fields:
   config: {}
   template: condish-include
   label: tyuabre
+  showOnly:
+    field: boodle
+    value: trundle
 pages:
 - content/posts/test.md
 - content/posts/asd.md
