@@ -20,11 +20,20 @@ sections:
   - dfghfgyhut
   - test-templato
   - default
+- type: heading
+  label: Data
+- type: document
+  path: data/authors.yml
+  label: Authors
+- type: document
+  path: data/locations.yml
+  label: Locations
 upload_dir: hugodemodev
-public_path: ''
+public_path: "/foo"
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
+instant_preview: true
 build:
   preview_command: hugo -E -F -D -b $DEPLOY_URL -d public
   publish_command: hugo -d public

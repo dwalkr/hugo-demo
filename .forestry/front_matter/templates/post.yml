@@ -7,21 +7,113 @@ fields:
   config:
     required: false
   label: Title
-- name: author
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: foodle
   type: text
   config:
     required: false
-  label: Author
-- name: hero
+  label: Foodle
+  showOnly:
+    field: boodle
+    value: grundle
+- name: boodle
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - trundle
+    - grundle
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Boodle
+- name: foo
+  type: text
+  config:
+    required: false
+  label: foo
+- name: cranble
+  type: field_group
+  config: {}
+  fields:
+  - name: grundy
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - framble
+      - tramble
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: grundy
+  - name: shrunterfrumb
+    type: number
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+    label: shrunterfrumb
+    showOnly:
+      field: grundy
+      value: tramble
+  label: cranble
+- name: korkor
+  type: field_group_list
+  fields:
+  - name: chooble
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - skringle
+      - frangle
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: chooble
+  - name: skoorplat
+    type: text
+    config:
+      required: false
+    label: skoorplat
+    showOnly:
+      field: chooble
+      value: frangle
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: korkor
+- name: tyuabre
   type: include
   config: {}
-  template: 2-columns
-  label: columns
-- name: nofields
-  type: include
-  config: {}
-  template: nofields
-  label: nofields
+  template: condish-include
+  label: tyuabre
+  showOnly:
+    field: boodle
+    value: trundle
 pages:
+- content/posts/test.md
 - content/posts/asd.md
 - content/posts/foodle.md
