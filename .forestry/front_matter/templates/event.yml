@@ -3,38 +3,38 @@ label: Event
 hide_body: true
 display_field: event
 fields:
-  - name: event
+- name: event
+  type: include
+  config: {}
+  template: include-event
+  label: Event
+- name: sub_events
+  type: field_group_list
+  fields:
+  - name: sub_event
     type: include
     config: {}
     template: include-event
-    label: Event
-  - name: sub_events
-    type: field_group_list
-    fields:
-      - name: sub_event
-        type: include
-        config: {}
-        template: include-event
-        label: Sub Event
-    config:
-      min:
-      max:
-      labelField: title
-    label: Sub Events
-    description: Optional
-  - name: advanced
-    type: field_group
+    label: Sub Event
+  config:
+    min: 
+    max: 
+    labelField: title
+  label: Sub Events
+  description: Optional
+- name: advanced
+  type: field_group
+  config: {}
+  fields:
+  - name: seo
+    type: include
     config: {}
-    fields:
-      - name: seo
-        type: include
-        config: {}
-        template: include-seo
-        label: SEO
-      - name: injects
-        type: include
-        config: {}
-        template: include-injects
-        label: Injects
-        description: "⚠️ Only use if you know what you are doing! ⚠️"
-    label: Advanced
+    template: include-seo
+    label: SEO
+  - name: injects
+    type: include
+    config: {}
+    template: include-injects
+    label: Injects
+    description: "⚠️ Only use if you know what you are doing! ⚠️"
+  label: Advanced

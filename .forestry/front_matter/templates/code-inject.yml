@@ -2,13 +2,13 @@
 label: Code Inject
 hide_body: true
 fields:
-  - name: code
-    type: textarea
-    default: ""
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: code
-    description: MUST be wrapped in appropriate tags
+- name: code
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: code
+  description: MUST be wrapped in appropriate tags
