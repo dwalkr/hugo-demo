@@ -1,4 +1,13 @@
 ---
 label: block-text
 hide_body: true
-fields: []
+fields:
+- name: contentarino
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: contentarino
