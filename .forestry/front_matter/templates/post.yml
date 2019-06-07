@@ -113,6 +113,14 @@ fields:
   showOnly:
     field: boodle
     value: trundle
+- name: blocketyboo
+  type: blocks
+  label: blocketyboo
+  template_types:
+  - block-text
+  config:
+    min: 
+    max: 
 pages:
 - content/posts/test.md
 - content/posts/asd.md
