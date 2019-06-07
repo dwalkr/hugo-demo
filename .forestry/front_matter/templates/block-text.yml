@@ -1,6 +1,7 @@
 ---
 label: block-text
 hide_body: true
+display_field: contentarino
 fields:
 - name: contentarino
   type: textarea
