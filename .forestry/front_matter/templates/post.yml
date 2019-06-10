@@ -113,7 +113,15 @@ fields:
   showOnly:
     field: boodle
     value: trundle
+- name: blocketyboo
+  type: blocks
+  label: blocketyboo
+  template_types:
+  - block-text
+  config:
+    min: 
+    max: 
 pages:
-- content/posts/foodle.md
-- content/posts/asd.md
 - content/posts/test.md
+- content/posts/asd.md
+- content/posts/foodle.md

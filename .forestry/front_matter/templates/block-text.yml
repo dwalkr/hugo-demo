@@ -1,0 +1,14 @@
+---
+label: block-text
+hide_body: true
+display_field: contentarino
+fields:
+- name: contentarino
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: contentarino
