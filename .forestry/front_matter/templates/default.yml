@@ -17,5 +17,3 @@ fields:
     time_format: 
     display_utc: 
   default: now
-pages:
-- content/asdfsadf.md
