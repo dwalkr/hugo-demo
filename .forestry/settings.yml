@@ -49,5 +49,6 @@ build:
   instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
     -d public
   preview_docker_image: forestryio/hugo:node10
-  mount_path: "/srv"
+  mount_path: "/foo"
+  working_dir: "/foo/bar"
 version: '0.26'
