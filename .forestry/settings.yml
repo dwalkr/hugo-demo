@@ -5,6 +5,13 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: content/posts
+  label: Posts
+  create: all
+  match: "**/*"
+  templates:
+  - post
+- type: directory
   path: content
   label: Pages
   create: all
@@ -13,13 +20,6 @@ sections:
   - dfghfgyhut
   - test-templato
   - default
-- type: directory
-  path: content/posts
-  label: Posts
-  create: all
-  match: "**/*"
-  templates:
-  - post
 - type: heading
   label: Data
 - type: document
@@ -40,6 +40,7 @@ build:
   preview_env:
   - HUGO_ENV=staging
   - HUGO_VERSION=0.55.2
+  - aba=daba
   publish_env:
   - HUGO_ENV=production
   - HUGO_VERSION=0.55.2
@@ -47,6 +48,7 @@ build:
   output_directory: public
   instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
     -d public
-  preview_docker_image: forestryio/hugo:latest
-  mount_path: "/srv"
+  preview_docker_image: forestryio/hugo:node10
+  mount_path: "/foo"
+  working_dir: "/foo/bar"
 version: '0.26'
