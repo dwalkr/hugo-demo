@@ -113,6 +113,33 @@ fields:
   showOnly:
     field: boodle
     value: trundle
+- name: sasadf
+  type: field_group_list
+  fields:
+  - name: asdfsdagsdgeg
+    type: text
+    config:
+      required: false
+    label: asdfsdagsdgeg
+  - name: e
+    type: text
+    config:
+      required: false
+    label: etrdm
+  - name: dfgnbfrgdt
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: dfgnbfrgdt
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: sasadf
 pages:
 - content/posts/test.md
 - content/posts/foodle.md
