@@ -50,4 +50,5 @@ build:
     -d public
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
+  working_dir: "/srv/site"
 version: '0.26'
