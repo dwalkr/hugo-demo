@@ -41,8 +41,6 @@ build:
   - HUGO_ENV=staging
   - HUGO_VERSION=0.55.2
   - aba=daba
-  - dfgs=sdfg
-  - GIT_EXEC_PATH=/does/not/exist
   publish_env:
   - HUGO_ENV=production
   - HUGO_VERSION=0.55.2
